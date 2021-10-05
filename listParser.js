@@ -1,3 +1,5 @@
+const Hotels = require('./hiltonDerbyHotels');
+
 
 let vaccineRequiredHotelCodes = [
     'CTAC-',
@@ -168,7 +170,9 @@ let vaccineRequiredHotelCodes = [
 ]
 
 listParser = (arr) => {
-    console.log('Current array ::: ', arr);
+    console.log('Current array ::: ', arr.join());
 
 
 }
+
+listParser(["hello","goodbye"])
