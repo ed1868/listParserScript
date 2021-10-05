@@ -1,4 +1,9 @@
-const Hotels = require('./listParser/data/hiltonDerbyHotels');
+const express = require('express');
+const router  = express.Router();
+
+
+
+const Hotels = require('../data/hiltonDerbyHotels');
 
 
 let vaccineRequiredHotelCodes = [
@@ -176,3 +181,12 @@ listParser = (arr) => {
 }
 
 listParser()
+
+
+
+/* GET home page. */
+router.get('/', (req, res, next) => {
+  res.render('index');
+});
+
+module.exports = router;
