@@ -1,7 +1,7 @@
 // 09/28/2021
 
 const Hotels = [
-    [
+    
         {
             "hotelId": "ATLWA",
             "hotelName": "Waldorf Astoria Atlanta Buckhead",
@@ -41677,6 +41677,6 @@ const Hotels = [
             "status": "Deactived"
         }
     ]
-]
+
 
 module.exports = Hotels
